@@ -15,7 +15,7 @@ It was designed to consume a custom Terraform module that deployed containerized
 The goal of this repository was to practice **Infrastructure as Code (IaC)** concepts, modular design with Terraform, and CI/CD workflows for deploying microservices in Azure.
 
 Each team:
-- Created its own **Terraform module** to deploy a Container App (see the [Terraform module - GitHub](https://github.com/codenamecoffee/Azure_Container_Apps_Terraform_Module)).
+- Created its own **Terraform module** to deploy a Container App (see the [Terraform module - GitHub](https://github.com/codenamecoffee/azure-container-apps-terraform-module)).
 - Referenced that module from this infrastructure repository.
 - Deployed the app into a shared **Azure Container Apps Environment**.
 
@@ -64,7 +64,7 @@ All teams used these shared resources to test Terraform workflows and CI/CD inte
 ## 🔗 Related Repository
 
 This infrastructure used a custom Terraform module developed for this lab:  
-👉 [Azure_Container_Apps_Terraform_Module](https://github.com/codenamecoffee/Azure_Container_Apps_Terraform_Module)
+👉 [Azure_Container_Apps_Terraform_Module](https://github.com/codenamecoffee/azure-container-apps-terraform-module)
 
 That module handled:
 - Container App creation
@@ -96,3 +96,4 @@ It demonstrates:
 - Azure resource orchestration in a shared environment  
 
 While no longer functional, it remains a practical learning artifact for DevOps and Cloud Infrastructure concepts.
+
